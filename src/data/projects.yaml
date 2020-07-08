@@ -1,0 +1,52 @@
+projects:
+  -
+    type: Own
+    name: Japanese Kana Game
+    url: https://kana-game.netlify.app/
+    technologies:
+      - React
+    description: Online flash card game for Japanese hiragana and katakana characters.
+  -
+    type: Own
+    name: Short Stories 101
+    url: https://www.shortstories101.com/
+    technologies:
+      - PHP
+      - MySQL
+    description: User-driven short story website where authors can post their work and readers can find new favourite stories and poems.
+  -
+    type: Own
+    name: Funfactz
+    url: https://funfactz.com/
+    technologies:
+      - PHP
+      - MySQL
+    description: Database of fun facts with accompanying articles.
+  -
+    type: Client
+    name: BT Morgan Heating Engineers
+    url: https://btmorganheatingengineers.co.uk/
+    technologies:
+      - WordPress
+    description: WordPress and bespoke theme for Cardiff-based BT Morgan Heating Engineers.
+  -
+    type: Client
+    name: Curley Locks Cardiff Locksmith
+    url: https://www.curleylocks.co.uk/
+    technologies:
+      - WordPress
+    description: WordPress and bespoke theme for Curley Locks, the most-reviewed locksmith in Cardiff.
+  -
+    type: Client
+    name: Facility Solutions
+    url: https://facility-solutions.co.uk/
+    technologies:
+      - WordPress
+    description: WordPress and bespoke theme for building maintenance services company Facility Solutions, based in Solihull.
+  -
+    type: Client
+    name: Rino & Co Cardiff
+    url: https://rinoandco.co.uk/
+    technologies:
+      - WordPress
+    description: WordPress and bespoke theme for Rino & Co, a unisex hairdresser in Cardiff.
