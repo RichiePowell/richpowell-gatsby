@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Projects from "../components/projects"
 import Hero from "../components/hero"
-import HeroBG from "../images/digital-world-2.jpeg"
+import HeroBG from "../images/digital-world-2.jpg"
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
