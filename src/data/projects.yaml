@@ -12,7 +12,6 @@ projects:
     url: https://www.shortstories101.com/
     technologies:
       - PHP
-      - MySQL
     description: User-driven short story website where authors can post their work and readers can find new favourite stories and poems.
   -
     type: Own
@@ -20,7 +19,6 @@ projects:
     url: https://funfactz.com/
     technologies:
       - PHP
-      - MySQL
     description: Database of fun facts with accompanying articles.
   -
     type: Client
@@ -50,3 +48,10 @@ projects:
     technologies:
       - WordPress
     description: WordPress and bespoke theme for Rino & Co, a unisex hairdresser in Cardiff.
+  -
+    type: Client
+    name: M&L Joinery
+    url: https://www.mandljoinery.co.uk/
+    technologies:
+      - WordPress
+    description: WordPress and bespoke theme for M&L Joinery, based in Cardiff.

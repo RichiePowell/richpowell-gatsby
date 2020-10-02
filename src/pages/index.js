@@ -1,23 +1,23 @@
 import React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Projects from "../components/projects"
+import Hero from "../components/hero"
+import HeroBG from "../images/digital-world-2.jpeg"
 
-import HeroBG from "../images/bg.jpg"
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faMobileAlt, faChevronDown } from '@fortawesome/free-solid-svg-icons'
+
+library.add(fab, faMobileAlt, faChevronDown)
+
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Freelance Web Developer in Mid-Wales" />
-    <section className="hero is-primary is-fullheight has-text-centered mb-6" style={{background: `url(${HeroBG}) no-repeat center center`}}>
-      <div className="hero-body">
-        <div className="container">
-          <h1 className="title">I'm a freelance web developer.</h1>
-          <p className="subtitle">And this is some text underneath.</p>
-        </div>
-      </div>
-    </section>
+    <Hero title="Rich Powell" subTitles={["Web Developer", "Web Designer", "Web Admin"]} background={HeroBG} />
 
     <Projects />
   </Layout>
