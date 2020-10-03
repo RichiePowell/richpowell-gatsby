@@ -15,13 +15,13 @@ const Hero = ({ background, title, subTitles }) => {
               </div>
 
               <div class={`${heroStyles.columnRight}`}>
-                <p className={heroStyles.subTitle}>
+                <div className={heroStyles.subTitle}>
                   <TextLoop
                     interval={3000}
                   >
                     { subTitles.map((subTitle) => <span>{subTitle}</span>)}
                   </TextLoop>
-                </p>
+                </div>
               </div>
             </div>
           </div>
