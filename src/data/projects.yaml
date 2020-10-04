@@ -3,13 +3,15 @@ projects:
     type: Own
     name: Japanese Kana Game
     url: https://kana-game.netlify.app/
+    image: kana-game.jpg
     technologies:
       - React
-    description: Online flash card game for Japanese hiragana and katakana characters.
+    description: Online flash card game for practicing Japanese hiragana and katakana characters.
   -
     type: Own
     name: Short Stories 101
     url: https://www.shortstories101.com/
+    image: shortstories101.png
     technologies:
       - PHP
     description: User-driven short story website where authors can post their work and readers can find new favourite stories and poems.
@@ -24,6 +26,7 @@ projects:
     type: Client
     name: BT Morgan Heating Engineers
     url: https://btmorganheatingengineers.co.uk/
+    image: btmorgan.jpg
     technologies:
       - WordPress
     description: WordPress and bespoke theme for Cardiff-based BT Morgan Heating Engineers.
@@ -45,6 +48,7 @@ projects:
     type: Client
     name: Rino & Co Cardiff
     url: https://rinoandco.co.uk/
+    image: rinoandco.jpg
     technologies:
       - WordPress
     description: WordPress and bespoke theme for Rino & Co, a unisex hairdresser in Cardiff.

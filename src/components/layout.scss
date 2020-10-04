@@ -32,6 +32,14 @@ h2 {
   a {
     color: $black;
   }
+
+  .card-image img {
+    max-height: 166px;
+  }
+
+  .title {
+    margin-bottom: 1rem;
+  }
 }
 
 .project-techs {

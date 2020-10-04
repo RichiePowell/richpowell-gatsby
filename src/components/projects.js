@@ -1,6 +1,7 @@
 import React from "react"
 import ProjectsData from "../data/projects.yaml"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Image from "./image"
 
 const Projects = () => (
   <section className="container py-6" id="projects">
@@ -12,9 +13,9 @@ const Projects = () => (
             <div className="card project" style={{height: "100%"}}>
               <a href={[project.url]}>
                 <div className="card-image">
-                  <figure className="image is-4by3">
-                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt={ project.name } />
-                  </figure>
+                  {/* <figure className="image is-4by3"> */}
+                    <img src={ project.image ? require(`../images/portfolio/${project.image}`) : "https://bulma.io/images/placeholders/1280x960.png" } alt={ project.name } width={318} height={166} />
+                  {/* </figure> */}
                 </div>
                 <div className="card-content">
                   <div className="project-techs">
@@ -27,6 +28,7 @@ const Projects = () => (
                       )
                     }) }
                   </div>
+                  
                   <h3 className="title is-5">{ project.name }</h3>
                   <p>{ project.description }</p>
                 </div>
