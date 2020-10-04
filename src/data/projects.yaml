@@ -32,8 +32,9 @@ projects:
     description: WordPress and bespoke theme for Cardiff-based BT Morgan Heating Engineers.
   -
     type: Client
-    name: Curley Locks Cardiff Locksmith
+    name: Curley Locks
     url: https://www.curleylocks.co.uk/
+    image: curleylocks.jpg
     technologies:
       - WordPress
     description: WordPress and bespoke theme for Curley Locks, the most-reviewed locksmith in Cardiff.
@@ -41,6 +42,7 @@ projects:
     type: Client
     name: Facility Solutions
     url: https://facility-solutions.co.uk/
+    image: facilitysolutions.jpg
     technologies:
       - WordPress
     description: WordPress and bespoke theme for building maintenance services company Facility Solutions, based in Solihull.
@@ -56,6 +58,7 @@ projects:
     type: Client
     name: M&L Joinery
     url: https://www.mandljoinery.co.uk/
+    image: mandljoinery.jpg
     technologies:
       - WordPress
     description: WordPress and bespoke theme for M&L Joinery, based in Cardiff.

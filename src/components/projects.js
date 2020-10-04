@@ -12,11 +12,14 @@ const Projects = () => (
           <div className="column is-3" key={`projects-${i}`}>
             <div className="card project" style={{height: "100%"}}>
               <a href={[project.url]}>
-                <div className="card-image">
-                  {/* <figure className="image is-4by3"> */}
-                    <img src={ project.image ? require(`../images/portfolio/${project.image}`) : "https://bulma.io/images/placeholders/1280x960.png" } alt={ project.name } width={318} height={166} />
-                  {/* </figure> */}
-                </div>
+                { project.image ?
+                  (
+                    <div className="card-image">
+                      <figure className="image is-4by2">
+                        <img src={ project.image ? require(`../images/portfolio/${project.image}`) : "https://bulma.io/images/placeholders/1280x960.png" } alt={ project.name } width={318} height={166} />
+                      </figure>
+                    </div>
+                  ) : ''}
                 <div className="card-content">
                   <div className="project-techs">
                     { project.technologies.map( (tech, techIndex ) => {
