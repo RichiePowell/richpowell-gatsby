@@ -12,7 +12,9 @@ h2 {
 }
 
 .container {
-  overflow: hidden;
+  @include until($tablet) {
+    overflow: hidden;
+  }
 }
 
 .project {
