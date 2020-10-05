@@ -19,6 +19,7 @@ projects:
     type: Own
     name: Funfactz
     url: https://funfactz.com/
+    image: funfactz.jpg
     technologies:
       - PHP
     description: Database of fun facts with accompanying articles.
