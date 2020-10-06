@@ -1,0 +1,10 @@
+.logoBlock {
+  img {
+    filter: grayscale(100);
+    transition: 0.5s all ease;
+
+    &:hover {
+      filter: none;
+    }
+  }
+}

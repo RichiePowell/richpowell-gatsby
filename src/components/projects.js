@@ -1,12 +1,12 @@
 import React from "react"
 import ProjectsData from "../data/projects.yaml"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import Image from "./image"
+// import Image from "./image"
 
 const Projects = () => (
   <section className="container py-6" id="projects">
-    <h2 className="title is-2 is-uppercase has-text-weight-light has-text-centered my-6">Projects</h2>
-    <div className="columns is-tablet is-multiline">
+    <h2 className="title is-1 has-text-weight-semibold has-text-centered my-6">Projects</h2>
+    <div className="columns is-tablet is-multiline my-5">
       { ProjectsData.projects.map( (project, i) => {
         return (
           <div className="column is-3" key={`projects-${i}`}>
