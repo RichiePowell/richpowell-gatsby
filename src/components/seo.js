@@ -26,6 +26,7 @@ function SEO({ description, lang, meta, title }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
+  const ogImage = ogImage || site.siteMetadata.ogImage
 
   return (
     <Helmet
@@ -46,6 +47,10 @@ function SEO({ description, lang, meta, title }) {
         {
           property: `og:description`,
           content: metaDescription,
+        },
+        {
+          property: `og:image`,
+          content: ogImage,
         },
         {
           property: `og:type`,

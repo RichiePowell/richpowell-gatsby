@@ -3,6 +3,7 @@ module.exports = {
     title: `Rich Powell`,
     description: `Rich Powell is a web developer from the UK.`,
     author: `@gatsbyjs`,
+    ogImage: `richpowell-og.png`,
   },
   plugins: [
     `gatsby-plugin-styled-jsx`,
