@@ -1,0 +1,65 @@
+.testimonial {
+  text-align: center;
+  position: relative;
+
+  &__icon {
+    font-size: 5rem;
+    color: #fdb714;
+  }
+
+  &__next,
+  &__prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: black;
+    font-size: 60px;
+    background: none;
+    border: none;
+    opacity: 0.3;
+    transition: 0.2s all ease;
+    outline: none;
+    color: #333;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  &__next {
+    right: 30px;
+  }
+
+  &__prev {
+    left: 30px;
+  }
+
+  blockquote {
+    font-size: 1.75rem;
+
+    hr {
+      height: 2px;
+      background: #fdb714;
+      width: 200px;
+      display: inline-block;
+    }
+
+    footer {
+      font-size: 1.2rem;
+
+      cite {
+        font-style: normal;
+        font-weight: 600;
+      }
+    }
+
+    p {
+      margin-bottom: 30px;
+      font-family: Georgia, Serif;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
