@@ -130,16 +130,14 @@ section {
 
 
 
+// Testimonial
 
-
- // Testimonial
-
- .testimonial {
+.testimonial {
   text-align: center;
   position: relative;
 
   &__icon {
-    font-size: 5rem;
+    font-size: 5rem !important;
     color: #fdb714;
   }
 
