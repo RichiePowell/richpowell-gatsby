@@ -14,7 +14,7 @@ library.add(faReact, faPhp, faWordpress, faFacebook, faLinkedin, faMobileAlt, fa
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Freelance Web Developer in Mid-Wales" description="I'm Rich Powell and I'm a a freelance full-stack web developer who works with PHP, React, Wordpress, and more. Based in mid-Wales." />
+    <SEO title="Freelance Web Developer in Mid-Wales" description="I'm Rich Powell and I'm a a freelance full-stack web developer who works with PHP, React, Wordpress, and more. Based in mid-Wales." ogImage="richpowell-og.png" />
     <Hero title="Rich Powell" subTitles={["Web Developer", "Web Designer", "Web Admin"]} background={HeroBG} />
     <Logos />
     <Projects />
