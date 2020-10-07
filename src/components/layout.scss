@@ -8,6 +8,10 @@ $link: #1b3d8c;
 
 @import "~bulma/bulma.sass";
 
+body {
+  overscroll-behavior: none;
+}
+
 .container {
   @include until($tablet) {
     overflow: hidden;
