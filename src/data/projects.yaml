@@ -21,6 +21,13 @@ projects:
       - PHP
     description: Database of fun facts with accompanying articles.
   - type: Client
+    name: Penhill Jones Property
+    url: https://penhilljonesproperty.co.uk/
+    image: penhill-jones-property-aberdare.jpg
+    technologies:
+      - WordPress
+    description: Real estate agent based in Aberdare. Website built with WordPress and integrated with Apex 27.
+  - type: Client
     name: BT Morgan Heating Engineers
     url: https://btmorganheatingengineers.co.uk/
     image: btmorgan.jpg
@@ -55,10 +62,3 @@ projects:
     technologies:
       - WordPress
     description: WordPress and bespoke theme for M&L Joinery, based in Cardiff.
-  - type: Client
-    name: Penhill Jones Property Aberdare
-    url: https://penhilljonesproperty.co.uk/
-    image: penhill-jones-property-aberdare.jpg
-    technologies:
-      - WordPress
-    description: Real estate agent based in Aberdare. Website built with WordPress and integrated with Apex 27.

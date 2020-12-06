@@ -3,7 +3,7 @@
 // If need, change your variables before importing Bulma
 // $title-color: #ff0000;
 $body-background-color: #f5f5f5;
-$family-sans-serif: 'Source Sans Pro', "Helvetica Neue", Arial, sans-serif;
+$family-sans-serif: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
 $link: #1b3d8c;
 
 @import "~bulma/bulma.sass";
@@ -22,14 +22,14 @@ body {
 .project {
   overflow: hidden;
   transition: 0.2s all ease;
-  
+
   @include from($tablet) {
     border-radius: 5px;
   }
 
   .card-image {
     &:after {
-      content: 'Visit site';
+      content: "Visit site";
       position: absolute;
       left: 0;
       top: 0;
@@ -53,9 +53,9 @@ body {
   &:hover {
     transform: translateY(-5px);
 
-    .card-image:after {
-      opacity: 1;
-    }
+    // .card-image:after {
+    //   opacity: 1;
+    // }
   }
 
   &:active {
@@ -70,13 +70,13 @@ body {
   }
 
   .title {
-    margin-bottom: .75rem;
+    margin-bottom: 0.75rem;
   }
 
   .project-techs {
     position: absolute;
     bottom: 0;
-  
+
     &__tech {
       display: inline-block;
       color: white;
@@ -89,32 +89,31 @@ body {
       transition: 0.2s all ease;
       user-select: none;
       vertical-align: middle;
-  
+
       svg {
         margin-right: 5px;
         vertical-align: middle;
         font-size: 1.2rem;
       }
-  
+
       &.mysql {
         color: #00758f;
       }
-  
+
       &.php {
         color: #5a62b9;
       }
-  
+
       &.wordpress {
         color: #21759b;
       }
-  
+
       &.react {
         color: #007daf;
       }
     }
   }
 }
-
 
 section {
   &.alt {
@@ -132,8 +131,6 @@ section {
   font-weight: normal;
   text-transform: uppercase;
 }
-
-
 
 // Testimonial
 
@@ -168,7 +165,7 @@ section {
       opacity: 1;
     }
   }
-  
+
   &__next {
     right: 30px;
 

@@ -9,7 +9,7 @@ const Projects = () => (
     <div className="columns is-tablet is-multiline my-5">
       { ProjectsData.projects.map( (project, i) => {
         return (
-          <div className="column is-3" key={`projects-${i}`}>
+          <div className="column is-4" key={`projects-${i}`}>
             <div className="card project" style={{height: "100%"}}>
               <a href={[project.url]}>
                 { project.image ?
