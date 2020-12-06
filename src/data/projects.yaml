@@ -1,65 +1,64 @@
 projects:
-  -
-    type: Own
+  - type: Own
     name: Japanese Kana Game
     url: https://kana-game.netlify.app/
     image: kana-game.jpg
     technologies:
       - React
     description: Online flash card game for practicing Japanese hiragana and katakana characters.
-  -
-    type: Own
+  - type: Own
     name: Short Stories 101
     url: https://www.shortstories101.com/
     image: shortstories101.png
     technologies:
       - PHP
     description: User-driven short story website where authors can post their work and readers can find new favourite stories and poems.
-  -
-    type: Own
+  - type: Own
     name: Funfactz
     url: https://funfactz.com/
     image: funfactz.jpg
     technologies:
       - PHP
     description: Database of fun facts with accompanying articles.
-  -
-    type: Client
+  - type: Client
     name: BT Morgan Heating Engineers
     url: https://btmorganheatingengineers.co.uk/
     image: btmorgan.jpg
     technologies:
       - WordPress
     description: WordPress and bespoke theme for Cardiff-based BT Morgan Heating Engineers.
-  -
-    type: Client
+  - type: Client
     name: Curley Locks
     url: https://www.curleylocks.co.uk/
     image: curleylocks.jpg
     technologies:
       - WordPress
     description: WordPress and bespoke theme for Curley Locks, the most-reviewed locksmith in Cardiff.
-  -
-    type: Client
+  - type: Client
     name: Facility Solutions
     url: https://facility-solutions.co.uk/
     image: facilitysolutions.jpg
     technologies:
       - WordPress
     description: WordPress and bespoke theme for building maintenance services company Facility Solutions, based in Solihull.
-  -
-    type: Client
+  - type: Client
     name: Rino & Co Cardiff
     url: https://rinoandco.co.uk/
     image: rinoandco.jpg
     technologies:
       - WordPress
     description: WordPress and bespoke theme for Rino & Co, a unisex hairdresser in Cardiff.
-  -
-    type: Client
+  - type: Client
     name: M&L Joinery
     url: https://www.mandljoinery.co.uk/
     image: mandljoinery.jpg
     technologies:
       - WordPress
     description: WordPress and bespoke theme for M&L Joinery, based in Cardiff.
+  - type: Client
+    name: Penhill Jones Property Aberdare
+    url: https://penhilljonesproperty.co.uk/
+    image: penhill-jones-property-aberdare.jpg
+    technologies:
+      - WordPress
+    description: Real estate agent based in Aberdare. Website built with WordPress and integrated with Apex 27.
