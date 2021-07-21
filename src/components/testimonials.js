@@ -56,7 +56,8 @@ const Testimonials = () => (
                   <hr />
                   <footer>
                     <cite>Gareth John</cite><br />
-                    ITCS
+                    ITCS<br />
+                    Previous employer
                   </footer>
                 </blockquote>
               </div>

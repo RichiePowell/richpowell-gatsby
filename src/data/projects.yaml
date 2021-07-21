@@ -1,11 +1,11 @@
 projects:
   - type: Own
-    name: Japanese Kana Game
-    url: https://kana-game.netlify.app/
+    name: Japanese Practice Tool
+    url: https://japanesepractice.app/
     image: kana-game.jpg
     technologies:
       - React
-    description: Online flash card game for practicing Japanese hiragana and katakana characters.
+    description: Online flash card game for practicing Japanese hiragana, katakana, and a variety of word sets.
   - type: Own
     name: Short Stories 101
     url: https://www.shortstories101.com/
