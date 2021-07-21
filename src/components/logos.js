@@ -1,5 +1,5 @@
 import React from "react"
-import logoStyles from "./logos.module.scss"
+import * as logoStyles from "./logos.module.scss"
 // import Image from "./image"
 
 const Logos = () => (

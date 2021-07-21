@@ -1,7 +1,7 @@
 import React from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import TextLoop from "react-text-loop";
-import heroStyles from "./hero.module.scss"
+import * as heroStyles from "./hero.module.scss"
 
 const Hero = ({ background, title, subTitles }) => {
   return (
