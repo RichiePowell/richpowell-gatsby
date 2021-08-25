@@ -5,7 +5,7 @@
 }
 
 .hero:after {
-  content: '';
+  content: "";
   width: 100%;
   min-height: 100vh;
   height: 100%;
@@ -15,6 +15,10 @@
   background: rgba(15, 15, 50, 0.8);
   display: block;
   z-index: 4;
+}
+
+.heroImage {
+  z-index: 0;
 }
 
 .heroBody {
@@ -47,12 +51,13 @@
   color: rgba(255, 255, 255, 0.5);
   transition: 0.2s all ease;
 
-  &:hover{
+  &:hover {
     color: white;
   }
 }
 
-.columnLeft, .columnRight {
+.columnLeft,
+.columnRight {
   overflow: hidden;
   display: inline-block;
   vertical-align: middle;
@@ -76,7 +81,7 @@
   display: block;
   color: rgba(255, 255, 255, 0.5);
   text-align: center;
-  
+
   a {
     padding: 10px;
   }
@@ -94,7 +99,8 @@
   // animation-delay: 0.5s;
 }
 
-.title, .subTitle {
+.title,
+.subTitle {
   text-align: center;
   border: none;
 }
@@ -120,7 +126,8 @@
     animation: none;
   }
 
-  .title, .subTitle {
+  .title,
+  .subTitle {
     animation: none;
     display: block;
     margin: auto;
@@ -134,7 +141,7 @@
     display: block;
     text-align: center;
   }
-  
+
   .columnRight {
     padding: 0;
     display: block;

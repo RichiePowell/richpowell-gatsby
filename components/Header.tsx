@@ -1,23 +1,22 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
+import Link  from "next/link"
 
-const Header = ({ siteTitle }) => (
+interface HeaderProps {
+  siteTitle: string
+}
+
+const Header: React.FC<HeaderProps> = ({ siteTitle }) => (
   <header>
     <div className="container">
       <nav className="navbar" role="navigation" aria-label="main navigation">
         <div className="navbar-brand is-size-3">
-          <Link
-            to="/"
-            style={{
-              textDecoration: `none`,
-              fontStyle: 'italic',
-              fontWeight: 'bold',
-              textTransform: 'uppercase',
-              letterSpacing: '1px',
-            }}
-          >
-            {siteTitle}
+          <Link href="/" passHref>
+            <a style={{
+                textDecoration: `none`,
+                fontStyle: 'italic',
+                fontWeight: 'bold',
+                textTransform: 'uppercase',
+                letterSpacing: '1px',
+              }}>{siteTitle}</a>
           </Link>
         </div>
         <ul className="navbar-menu">
@@ -35,13 +34,5 @@ const Header = ({ siteTitle }) => (
     </div>
   </header>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header

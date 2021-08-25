@@ -1,6 +1,5 @@
-import React from "react"
-import * as logoStyles from "./logos.module.scss"
-// import Image from "./image"
+import Image from 'next/image'
+import logoStyles from "../styles/logos.module.scss"
 
 const Logos = () => (
   <section className={`py-3 alt shadow ${logoStyles.logoBlock}`} id="logos">
@@ -12,19 +11,19 @@ const Logos = () => (
       </div> */}
       <div className="columns is-mobile is-centered is-vcentered is-multiline">
         <div className="column is-half-mobile">
-          <img src={ require("../images/logos/weaveworks.jpg")} width="200" height="100" alt="Weaveworks" />
+          <Image src={ require("../images/logos/weaveworks.jpg")} width="200" height="100" alt="Weaveworks" />
         </div>
         <div className="column is-half-mobile">
-          <img src={ require("../images/logos/motonovo.jpg")} width="200" height="100" alt="Motonovo" />
+          <Image src={ require("../images/logos/motonovo.jpg")} width="200" height="100" alt="Motonovo" />
         </div>
         <div className="column is-half-mobile">
-          <img src={ require("../images/logos/core.jpg")} width="200" height="100" alt="CORE" />
+          <Image src={ require("../images/logos/core.jpg")} width="200" height="100" alt="CORE" />
         </div>
         <div className="column is-half-mobile">
-          <img src={ require("../images/logos/techniquest.jpg")} width="200" height="100" alt="Techniquest" />
+          <Image src={ require("../images/logos/techniquest.jpg")} width="200" height="100" alt="Techniquest" />
         </div>
         <div className="column is-half-mobile">
-          <img src={ require("../images/logos/samuelheath.jpg")} width="200" height="100" alt="Samuel Heath" />
+          <Image src={ require("../images/logos/samuelheath.jpg")} width="200" height="100" alt="Samuel Heath" />
         </div>
       </div>
     </div>

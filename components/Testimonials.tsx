@@ -1,4 +1,3 @@
-import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
@@ -7,6 +6,7 @@ const Testimonials = () => (
   <section className="py-6 alt shadow testimonial" id="testimonials">
     <CarouselProvider
       naturalSlideWidth={100}
+      naturalSlideHeight={300}
       isIntrinsicHeight
       totalSlides={3}
     >
@@ -18,7 +18,7 @@ const Testimonials = () => (
                 <FontAwesomeIcon icon="quote-left" className="testimonial__icon" />
                 <blockquote className="mt-6">
                   <p>Exceptional service provided by Richard, he went above and beyond through all stages of the new website and exceeded all expectations!</p>
-                  <p>I'm more than happy with with my new website and the overall experience with dealing with Richard, thank you for all your hard work!</p>
+                  <p>{"I'm more than happy with with my new website and the overall experience with dealing with Richard, thank you for all your hard work!"}</p>
                   <hr />
                   <footer><cite>Simon Curley</cite><br />
                   <a href="https://www.curleylocks.co.uk/">Curley Locks Cardiff Locksmith</a></footer>
