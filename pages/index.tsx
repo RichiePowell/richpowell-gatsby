@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import Layout from "../components/Layout"
-import Logos from "../components/Logos"
+// import Logos from "../components/Logos"
 import Projects from "../components/Projects"
 import Testimonials from "../components/Testimonials"
 import Hero from "../components/Hero"
-import heroBackground from "/public/images/digital-world-2.jpg"
+import heroBackground from "../public/images/digital-world-2.jpg"
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Hero title="Rich Powell" subTitles={["Web Developer", "Web Designer", "Web Admin"]} background={ heroBackground } />
+      <Hero title="Rich Powell" subTitles={["Web Developer", "Web Designer", "Web Admin"]} background={heroBackground} />
       {/* <Logos /> */}
       <Projects />
       <Testimonials />

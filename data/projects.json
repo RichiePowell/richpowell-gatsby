@@ -34,6 +34,14 @@
     },
     {
       "type": "Client",
+      "name": "OTL Group",
+      "url": "https://otl-group.co.uk/",
+      "image": "otl-group.jpg",
+      "technologies": ["React"],
+      "description": "Construction company based in South Wales, offering services in commercial and residential sectors. Built with NextJS."
+    },
+    {
+      "type": "Client",
       "name": "BT Morgan Heating Engineers",
       "url": "https://btmorganheatingengineers.co.uk/",
       "image": "btmorgan.jpg",
