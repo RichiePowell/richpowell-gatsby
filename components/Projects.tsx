@@ -6,8 +6,8 @@ import { Fade } from 'react-reveal'
 
 const Projects = () => (
   <section className="container py-6" id="projects">
-    <h2 className="title is-1 has-text-weight-semibold has-text-centered my-6">Projects</h2>
-    <p>Some of the projects that I&apos;ve worked on. This list includes my own projects, as well as a selection of client projects.</p>
+    <h2 className="title is-1 has-text-weight-semibold has-text-centered mt-6 mb-3">Projects</h2>
+    <p className="has-text-centered is-size-5 mb-6">Some of the projects that I&apos;ve worked on.<br />Includes my own projects, as well as a selection of client projects.</p>
     <div className="columns is-tablet is-multiline my-5">
       { ProjectsData.projects.map( (project, i) => {
         return (
