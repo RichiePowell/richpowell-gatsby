@@ -21,7 +21,6 @@ const Hero: React.FC<HeroProps> = ({ background, title, subTitles }) => {
         layout="fill"
         objectFit="cover"
         objectPosition="center"
-        placeholder="blur"
       />
       <div className={`hero-body ${heroStyles.heroBody}`}>
         <div className="container">
