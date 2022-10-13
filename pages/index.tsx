@@ -17,7 +17,7 @@ export default function Home() {
 
       <Hero title="Rich Powell" subTitles={["Web Developer", "Web Designer", "Web Admin"]} background="/images/digital-world-2.jpg" />
       {/* <Logos /> */}
-      <Projects />
+      {/* <Projects /> */}
       <Testimonials />
     </Layout>
   )
